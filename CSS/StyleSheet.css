@@ -10,9 +10,9 @@ a:visited {
     font-family: 'DIN Alternate Bold';
     font-family: 'DIN Condensed Bold';
     font-family: 'D-DIN-Bold';
-  src: url('Fonts/DIN Alternate Bold.ttf');
-  src: url('Fonts/DIN Condensed Bold.ttf');
-  src: url('Fonts/D-DIN-Bold.otf');
+  src: url('../Fonts/DIN Alternate Bold.ttf');
+  src: url('../Fonts/DIN Condensed Bold.ttf');
+  src: url('../Fonts/D-DIN-Bold.otf');
 }
 
 html {
@@ -312,13 +312,6 @@ div h1 {
 #Drexel {
     background-color: #42A4FF;
 }
-
-
-
-
-
-
-
 
 
 
