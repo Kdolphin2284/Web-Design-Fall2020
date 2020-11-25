@@ -1,0 +1,325 @@
+a:link { 
+    text-decoration: none; color: #ffffff;
+}
+
+a:visited { 
+    text-decoration: none; color: #ffffff;
+}
+
+@font-face {
+    font-family: 'DIN Alternate Bold';
+    font-family: 'DIN Condensed Bold';
+    font-family: 'D-DIN-Bold';
+  src: url('Fonts/DIN Alternate Bold.ttf');
+  src: url('Fonts/DIN Condensed Bold.ttf');
+  src: url('Fonts/D-DIN-Bold.otf');
+}
+
+html {
+    background: #8F8F8F;
+    width: 25.875em;
+    height: auto;
+}
+
+.Intro {
+    background:#6363FF;
+    border-radius: 0em 1em 1em 0em;
+    height: 12.5em;
+    box-shadow: .4em .4em .8em rgb(48, 48, 48);
+    width: 19.9375em;
+    margin: 0 0 4em 0;
+}
+
+.Intro h1 { 
+    padding: .7em .7em 0em .7em;
+}
+
+.Intro h2 {
+    color: white;
+    font-family: Arial;
+    font-size: 1.125em;
+    padding: 0 1.4em;
+}
+
+.hr_1 {
+    background-color: white;
+    height: .5em;
+    margin: 2em auto 1em auto;
+    width: 16.25em;
+}
+
+.hr_2 {
+    background-color: white;
+    height: .5em;
+    width: 16.25em;
+}
+
+.Resume img {
+    border-radius: 1em 1em 1em 1em;
+    position: relative;
+    top: .5em;
+    height: 11.515625em;
+    width: 15.19375em;
+}
+.Resume {
+    background: #42A4FF;
+    border-radius:  1em;
+    height: 21em;
+    margin: auto;
+    box-shadow: 0 .5em .8em rgb(48, 48, 48);
+    text-align: center;
+    width:  19.9375em;
+}
+
+div h1 {
+    color: white;
+    font-family: D-DIN-Bold;
+    font-size: 2.25em;
+    padding: 1em 0 0 0;
+    text-shadow: .1em .1em .215em #3a3a3a;
+}
+
+#UI_Box {
+    background: #FFC063;
+}
+.Box_Option {
+    border-radius:  1em;
+    height: 35.1359375em;
+    margin: 2em  auto;
+    box-shadow: 0 .5em .8em rgb(48, 48, 48);
+    text-align: center;
+    width:  19.9375em;
+}
+
+.Box_Option img {
+    border-radius: 1em 1em 1em 1em;
+    position: relative;
+    top: .5em;
+    height: 25.40625em;
+    width: 15.19375em;
+}
+
+#Animation {
+    background: #FF7B7B;
+}
+
+#Photography {
+    background: #66E784;
+}
+
+.Social_Media {
+    background:#6363FF;
+    border-radius: 1em 0em 0em 1em;
+    box-shadow: -.4em .4em .8em rgb(48, 48, 48);
+    height: 15.5em;
+    margin: 1.5em 0 3em 0;
+    position: absolute;
+    left: 5.9375em;
+    width: 19.9375em;
+}
+.Social_Media p{
+    color: white;
+    font-family: Arial;
+    font-size: 2em;
+    padding: 0 1em;
+}
+
+.Social_Media h1 {
+    left: 1.3em;
+    padding: 0 0 0 1em;
+    position: relative;
+}
+
+.Social_Media img {
+    float: right;
+    height: 2.6em;
+    position: relative;
+    top: -4.5em;
+    right: 1.6em;
+    width: 2.6em;
+}
+
+
+.home {
+    background-color: #6363FF;
+    border-radius: .5em 0 0 .5em;
+    box-shadow: -.4em .4em .8em rgb(48, 48, 48);;
+    height: 4.59375em;
+    left: 16.09375em;
+    position: absolute;
+    text-align: center;
+    width: 9.78125em;
+}
+
+.home h1 {
+    position: relative;
+    bottom: 1.2em;
+}
+
+.Full_Resume {
+    background:#42A4FF;
+    border-radius: 0em 1em 1em 0em;
+    box-shadow: -.4em .4em .8em rgb(48, 48, 48);
+    height: 12.5em;
+    left: 0;
+    margin: 1.5em 0 3em 0;
+    position: relative;
+    top: 8.5em;
+    width: 19.9375em;
+}
+
+.Full_Resume h1 {
+    bottom: .3em;
+    left: .68em;
+    position: relative;
+}
+
+.Full_Resume h2 {
+    bottom: .6em;
+    color: white;
+    font-family: Arial;
+    font-size: 1.125em;
+    padding: 0 1.4em;
+    position: relative;
+}
+
+#Download_Icon {
+    background-color: #FF7B7B;
+    border-radius: .5em;
+    box-shadow: 0 .5em .8em rgb(48, 48, 48);
+    height: 4.59375em;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 9.2em;
+    width: 16em;
+}
+
+#Download_Icon h1 {
+    bottom: .5em;
+    position: relative;
+}
+
+.Resume_Written {
+    background-color: #ffffff;
+    box-shadow: inset 0 1em 1em #8F8F8F, inset 0 -1em 1em #8F8F8F;
+    font-size: .8em;
+    height: 86em;
+    left: 0;
+    margin: auto;
+    position: relative;
+    top: 15.5em;
+    width: auto;
+}
+
+ .Resume_Written p, li {
+    left: 2em;
+    position: relative;
+    top: 3em;
+    width: 19.65625em;
+ }
+
+ #top_info {
+    position: relative;
+    right: 2em;
+    text-align: center;
+    margin: auto;
+    width: 19.65625em;
+}
+
+#Resume_Social_Media {
+    position: absolute;
+    top: 106.5em;
+}
+
+.UX_Intro {
+    background:#FFC063;
+    border-radius: 0em 1em 1em 0em;
+    box-shadow: .4em .4em .8em rgb(48, 48, 48);
+    height: 12.5em;
+    left: 0;
+    margin: 1.5em 0 3em 0;
+    position: relative;
+    top: 8.5em;
+    width: 19.9375em;
+}
+
+.UX_Intro h1 {
+    bottom: .3em;
+    left: .68em;
+    position: relative;
+}
+
+.UX_Intro h2 {
+    bottom: .6em;
+    color: white;
+    font-family: Arial;
+    font-size: 1.125em;
+    padding: 0 1.4em;
+    position: relative;
+}
+#Yale_Box {
+    background-color: #42A4FF;
+}
+
+#POGGJ_Box {
+    background-color: #66E784;
+}
+
+#AmazonVideo_Box {
+    background-color: #6363FF;
+}
+
+#AlliedNews_Box {
+    background-color: #FF7B7B;
+}
+
+#UI_Social_Media {
+    position: absolute;
+    top: 160em;
+}
+
+.UX_Positioning {
+    top: 7.5em;
+    position: relative; 
+}
+
+#Animation_Intro {
+    background-color: #FF7B7B;
+}
+
+#Animation_Social_Media {
+    position: absolute;
+    top: 80.8em;
+}
+
+#Man_and_the_Tent {
+    background-color: #66E784;
+}
+
+#POGGJ_Anim {
+    background-color: #42A4FF;
+}
+
+#Photogrphy_Intro {
+    background-color: #66E784;
+}
+
+#Japan {
+    background-color: #FF7B7B;
+}
+
+#Drexel {
+    background-color: #42A4FF;
+}
+
+
+
+
+
+
+
+
+
+
+
