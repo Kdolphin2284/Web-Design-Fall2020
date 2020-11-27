@@ -16,16 +16,17 @@ a:visited {
 }
 
 html {
-    background: #748ba7;
-    width: 25.875em;
+    background: #ffffff;
+    width: auto;
     height: auto;
+    overflow-x: hidden;
 }
 
 .Intro {
     background:#6363FF;
-    border-radius: 0em 1em 1em 0em;
+    border-radius: 0em 2em 2em 0em;
     height: 12.5em;
-    box-shadow: .4em .4em .8em rgb(48, 48, 48);
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     width: 19.9375em;
     margin: 0 0 4em 0;
 }
@@ -41,21 +42,7 @@ html {
     padding: 0 1.4em;
 }
 
-.hr_1 {
-    background-color: white;
-    height: .5em;
-    margin: 2em auto 1em auto;
-    width: 16.25em;
-}
-
-.hr_2 {
-    background-color: white;
-    height: .5em;
-    width: 16.25em;
-}
-
 .Resume img {
-    border-radius: 1em 1em 1em 1em;
     position: relative;
     top: .5em;
     height: 11.515625em;
@@ -63,10 +50,10 @@ html {
 }
 .Resume {
     background: #42A4FF;
-    border-radius:  1em;
+    border-radius:  2em;
     height: 21em;
     margin: auto;
-    box-shadow: 0 .5em .8em rgb(48, 48, 48);
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     text-align: center;
     width:  19.9375em;
 }
@@ -76,23 +63,21 @@ div h1 {
     font-family: D-DIN-Bold;
     font-size: 2.25em;
     padding: 1em 0 0 0;
-    text-shadow: .1em .1em .215em #3a3a3a;
 }
 
 #UI_Box {
-    background: #FFC063;
+    background: #ffbc58;
 }
 .Box_Option {
-    border-radius:  1em;
+    border-radius:  2em;
     height: 35.1359375em;
-    margin: 2em  auto;
-    box-shadow: 0 .5em .8em rgb(48, 48, 48);
+    margin: 4em  auto;
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     text-align: center;
     width:  19.9375em;
 }
 
 .Box_Option img {
-    border-radius: 1em 1em 1em 1em;
     position: relative;
     top: .5em;
     height: 25.40625em;
@@ -104,17 +89,17 @@ div h1 {
 }
 
 #Photography {
-    background: #66E784;
+    background: #44e0a4;
 }
 
 .Social_Media {
     background:#6363FF;
-    border-radius: 1em 0em 0em 1em;
-    box-shadow: -.4em .4em .8em rgb(48, 48, 48);
+    border-radius: 2em 0em 0em 2em;
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     height: 15.5em;
-    margin: 1.5em 0 3em 0;
+    margin: .5em 0 3em 0;
     position: absolute;
-    left: 5.9375em;
+    right: 0;
     width: 19.9375em;
 }
 .Social_Media p{
@@ -141,11 +126,11 @@ div h1 {
 
 
 .home {
-    background-color: #6363FF;
-    border-radius: .5em 0 0 .5em;
-    box-shadow: -.4em .4em .8em rgb(48, 48, 48);;
+    background-color: #e47be4;
+    border-radius: 2em 0 0 2em;
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     height: 4.59375em;
-    left: 16.09375em;
+    right: 0;
     position: absolute;
     text-align: center;
     width: 9.78125em;
@@ -157,9 +142,9 @@ div h1 {
 }
 
 .Full_Resume {
-    background:#42A4FF;
-    border-radius: 0em 1em 1em 0em;
-    box-shadow: -.4em .4em .8em rgb(48, 48, 48);
+    background:#6363FF;
+    border-radius: 0em 2em 2em 0em;
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     height: 12.5em;
     left: 0;
     margin: 1.5em 0 3em 0;
@@ -185,8 +170,8 @@ div h1 {
 
 #Download_Icon {
     background-color: #FF7B7B;
-    border-radius: .5em;
-    box-shadow: 0 .5em .8em rgb(48, 48, 48);
+    border-radius: 2em;
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     height: 4.59375em;
     margin: auto;
     position: relative;
@@ -201,44 +186,30 @@ div h1 {
 }
 
 .Resume_Written {
-    background-color: #ffffff;
-    box-shadow: inset 0 1em 1em #8F8F8F, inset 0 -1em 1em #8F8F8F;
     font-size: .8em;
-    height: 86em;
-    left: 0;
     margin: auto;
+     max-width: 600px;
+    padding: 1em;
     position: relative;
     top: 15.5em;
-    width: auto;
 }
 
- .Resume_Written p, li {
-    left: 2em;
-    position: relative;
-    top: 3em;
-    width: 19.65625em;
- }
-
  #top_info {
-    position: relative;
-    right: 2em;
     text-align: center;
-    margin: auto;
-    width: 19.65625em;
 }
 
 #Resume_Social_Media {
     position: absolute;
-    top: 106.5em;
+    top: 94em;
 }
 
 .UX_Intro {
-    background:#FFC063;
-    border-radius: 0em 1em 1em 0em;
-    box-shadow: .4em .4em .8em rgb(48, 48, 48);
+    background: #6363FF;
+    border-radius: 0em 2em 2em 0em;
+    box-shadow: 0em .4em .8em rgb(138, 138, 138);
     height: 12.5em;
     left: 0;
-    margin: 1.5em 0 3em 0;
+    margin: 1.5em 0 5em 0;
     position: relative;
     top: 8.5em;
     width: 19.9375em;
@@ -263,7 +234,7 @@ div h1 {
 }
 
 #POGGJ_Box {
-    background-color: #66E784;
+    background-color: #44e0a4;
 }
 
 #AmazonVideo_Box {
@@ -276,7 +247,7 @@ div h1 {
 
 #UI_Social_Media {
     position: absolute;
-    top: 160em;
+    top: 156.5em;
 }
 
 .UX_Positioning {
@@ -285,16 +256,16 @@ div h1 {
 }
 
 #Animation_Intro {
-    background-color: #FF7B7B;
+    background-color: #6363FF;
 }
 
 #Animation_Social_Media {
     position: absolute;
-    top: 80.8em;
+    top: 78em;
 }
 
 #Man_and_the_Tent {
-    background-color: #66E784;
+    background-color: #44e0a4;
 }
 
 #POGGJ_Anim {
@@ -302,7 +273,7 @@ div h1 {
 }
 
 #Photogrphy_Intro {
-    background-color: #66E784;
+    background-color: #6363FF;
 }
 
 #Japan {
