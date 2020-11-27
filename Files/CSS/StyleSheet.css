@@ -124,7 +124,6 @@ div h1 {
     width: 2.6em;
 }
 
-
 .home {
     background-color: #e47be4;
     border-radius: 2em 0 0 2em;
@@ -188,7 +187,7 @@ div h1 {
 .Resume_Written {
     font-size: .8em;
     margin: auto;
-     max-width: 600px;
+    max-width: 600px;
     padding: 1em;
     position: relative;
     top: 15.5em;
@@ -200,7 +199,7 @@ div h1 {
 
 #Resume_Social_Media {
     position: absolute;
-    top: 94em;
+    top: 97em;
 }
 
 .UX_Intro {
