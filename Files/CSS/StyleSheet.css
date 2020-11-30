@@ -283,6 +283,33 @@ div h1 {
     background-color: #42A4FF;
 }
 
+.Content {
+    color: black;
+    font-size: 1em;
+    font-family: Arial;
+    margin: auto;
+    max-width: 600px;
+    padding: 1.5em;
+    position: relative;
+    top: 4.6em;
+    max-width: 37.5em;
+}
+
+.Content p {
+    padding: 0 0 2em 0;
+}
+.Content img {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 2em 0;
+}
+
+#Yale_Social_Media {
+    margin: 4em 0 0 0;
+    position: absolute;
+    bottom: auto;
+}
+
 
 
 
