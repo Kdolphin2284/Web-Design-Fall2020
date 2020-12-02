@@ -61,7 +61,7 @@ html {
     background: #ffffff;
     width: auto;
     height: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .Intro {
@@ -149,19 +149,20 @@ div h1 {
     font-family: Arial;
     font-size: 2em;
     padding: 0 1em;
+    position: relative;
+    top: 2.3em;
 }
 
 .Social_Media h1 {
     left: 1.3em;
     padding: 0 0 0 1em;
-    position: relative;
+    position: absolute;
 }
 
 .Social_Media img {
     float: right;
     height: 2.6em;
     position: relative;
-    top: -4.5em;
     right: 1.6em;
     width: 2.6em;
 }
