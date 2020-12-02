@@ -7,13 +7,55 @@ a:visited {
 }
 
 @font-face {
-    font-family: 'DIN Alternate Bold';
-    font-family: 'DIN Condensed Bold';
     font-family: 'D-DIN-Bold';
-  src: url('../Fonts/DIN Alternate Bold.ttf');
-  src: url('../Fonts/DIN Condensed Bold.ttf');
-  src: url('../Fonts/D-DIN-Bold.otf');
+    src: url('../Fonts/D-DIN-Bold.otf');
 }
+
+@font-face {
+    font-family: 'DIN Alternate Bold';
+    src: url('../Fonts/DIN Alternate Bold.ttf');  
+}
+
+@font-face{
+    font-family: 'DIN Condensed Bold';
+    src: url('../Fonts/DIN Condensed Bold.ttf'); 
+}
+
+@font-face{
+    font-family: 'Hero-Regular';
+    src: url('../Fonts/Hero-Regular.otf'); 
+}
+
+@font-face{
+    font-family: 'Gidole-Regular';
+    src: url('../Fonts/Gidole-Regular.otf'); 
+}
+
+@font-face{
+    font-family: 'ProximaNova-Regular';
+    src: url('../Fonts/ProximaNova-Regular.otf'); 
+}
+
+@font-face{
+    font-family: 'HKGrotesk-Regular';
+    src: url('../Fonts/HKGrotesk-Regular.ttf'); 
+}
+
+@font-face{
+    font-family: 'Fabrica';
+    src: url('../Fonts/Fabrica.otf'); 
+}
+
+@font-face{
+    font-family: 'Remove DEMO';
+    src: url('../Fonts/Remove DEMO.otf'); 
+}
+
+@font-face{
+    font-family: 'Roboto-Bold';
+    src: url('../Fonts/Roboto-Bold.ttf'); 
+}
+
 
 html {
     background: #ffffff;
@@ -37,7 +79,7 @@ html {
 
 .Intro h2 {
     color: white;
-    font-family: Arial;
+    font-family: Hero-Regular, ProximaNova-Regular, Gidole-Regular;
     font-size: 1.125em;
     padding: 0 1.4em;
 }
@@ -60,7 +102,7 @@ html {
 
 div h1 {
     color: white;
-    font-family: D-DIN-Bold;
+    font-family: D-DIN-Bold, Remove DEMO, Roboto-Bold;
     font-size: 2.25em;
     padding: 1em 0 0 0;
 }
@@ -161,7 +203,7 @@ div h1 {
 .Full_Resume h2 {
     bottom: .6em;
     color: white;
-    font-family: Arial;
+    font-family: Hero-Regular, ProximaNova-Regular, Gidole-Regular;
     font-size: 1.125em;
     padding: 0 1.4em;
     position: relative;
@@ -223,7 +265,7 @@ div h1 {
 .UX_Intro h2 {
     bottom: .6em;
     color: white;
-    font-family: Arial;
+    font-family: Hero-Regular, ProximaNova-Regular, Gidole-Regular;
     font-size: 1.125em;
     padding: 0 1.4em;
     position: relative;
@@ -285,8 +327,8 @@ div h1 {
 
 .Content {
     color: black;
-    font-size: 1em;
-    font-family: Arial;
+    font-size: 1.25em;
+    font-family: HKGrotesk-Regular, Fabrica, Helvetica;
     margin: auto;
     max-width: 600px;
     padding: 1.5em;
@@ -296,13 +338,14 @@ div h1 {
 }
 
 .Content p {
-    padding: 0 0 3em 0;
+    padding: 0 0 2em 0;
 }
+
 .Content img {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 0 0 3em 0;
+    padding: 0 0 2em 0;
 }
 
 #Yale_Social_Media {
@@ -319,12 +362,28 @@ div h1 {
     padding: 0 0 3em 0;
 }
 
+.AlliedNews_Img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 0 3em 0;
+}
+
+#AlliedNews_Smart_Img img {
+    width: 60%;
+    height: 60%;
+}
 .POGGJ_Vid video{
     display: block;
     margin: auto;
     padding: 0 0 3em 0;
 }
 
+.Content_h2 {
+    margin: auto;
+    text-align: center;
+}
 
 
 
