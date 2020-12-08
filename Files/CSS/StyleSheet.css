@@ -8,52 +8,52 @@ a:visited {
 
 @font-face {
     font-family: 'D-DIN-Bold';
-    src: url('../Fonts/D-DIN-Bold.otf');
+    src: url('../fonts/D-DIN-Bold.otf');
 }
 
 @font-face {
     font-family: 'DIN-Alternate-Bold';
-    src: url('../Fonts/DIN Alternate Bold.ttf');  
+    src: url('../fonts/DIN Alternate Bold.ttf');  
 }
 
 @font-face{
     font-family: 'DIN-Condensed-Bold';
-    src: url('../Fonts/DIN Condensed Bold.ttf'); 
+    src: url('../fonts/DIN Condensed Bold.ttf'); 
 }
 
 @font-face{
     font-family: 'Hero-Regular';
-    src: url('../Fonts/Hero-Regular.otf'); 
+    src: url('../fonts/Hero-Regular.otf'); 
 }
 
 @font-face{
     font-family: 'Gidole-Regular';
-    src: url('../Fonts/Gidole-Regular.otf'); 
+    src: url('../fonts/Gidole-Regular.otf'); 
 }
 
 @font-face{
     font-family: 'ProximaNova-Regular';
-    src: url('../Fonts/ProximaNova-Regular.otf'); 
+    src: url('../fonts/ProximaNova-Regular.otf'); 
 }
 
 @font-face{
     font-family: 'HKGrotesk-Regular';
-    src: url('../Fonts/HKGrotesk-Regular.ttf'); 
+    src: url('../fonts/HKGrotesk-Regular.ttf'); 
 }
 
 @font-face{
     font-family: 'Fabrica';
-    src: url('../Fonts/Fabrica.otf'); 
+    src: url('../fonts/Fabrica.otf'); 
 }
 
 @font-face{
     font-family: 'Remove-DEMO';
-    src: url('../Fonts/Remove DEMO.otf'); 
+    src: url('../fonts/Remove DEMO.otf'); 
 }
 
 @font-face{
     font-family: 'Roboto-Bold';
-    src: url('../Fonts/Roboto-Bold.ttf'); 
+    src: url('../fonts/Roboto-Bold.ttf'); 
 }
 
 
