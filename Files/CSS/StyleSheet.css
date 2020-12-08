@@ -233,8 +233,8 @@ div h1 {
     font-family: HKGrotesk-Regular, Fabrica, Helvetica;
     font-size: .8em;
     margin: auto;
-    max-width: 600px;
-    padding: 0 3em;
+    max-width: 37.5em;
+    padding: 0 1.5em;
     position: relative;
     top: 15.5em;
 }
@@ -245,6 +245,10 @@ div h1 {
 
 ul {
     list-style-type: none;
+}
+
+.li_bullets {
+    list-style-type: circle;
 }
 
  #top_info {
@@ -282,6 +286,7 @@ ul {
     padding: 0 1.4em;
     position: relative;
 }
+
 #Yale_Box {
     background-color: #42A4FF;
 }
@@ -342,7 +347,7 @@ ul {
     font-size: 1.25em;
     font-family: HKGrotesk-Regular, Fabrica, Helvetica;
     margin: auto;
-    max-width: 600px;
+    max-width: 37.5em;
     padding: 1.5em;
     position: relative;
     top: 4.6em;
